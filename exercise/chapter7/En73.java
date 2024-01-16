@@ -11,9 +11,17 @@ public class En73 {
         String num = stdIn.nextLine();
 
         String[] list = num.split("");
-        while (n : list){
-            System.out.print(n);
+
+        int x = 0;
+        x = list.length;
+
+        while (x != 0){
+            System.out.print(list[x-1]);
+            x = x - 1;
         }
+
+
+
 
     }
     
