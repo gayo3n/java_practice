@@ -7,13 +7,13 @@ public class Cook implements Person{
 
     // コンストラクタ
     public Cook(String n, String j, String s){
-        name = n;
-        job = j;
-        specialties = s;
+        this.name = n;
+        this.job = j;
+        this.specialties = s;
     }
 
     @Override
     public void introduce(){
-        System.out.println("氏名：" + name + "\n職種：" + job + "\n得意料理：" + specialties);
+        System.out.println("氏名：" + this.name + "\n職種：" + this.job + "\n得意料理：" + this.specialties);
     }
 }

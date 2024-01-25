@@ -7,13 +7,13 @@ public class Teacher implements Person{
 
     // コンストラクタ
     public Teacher(String n, String j, String s){
-        name = n;
-        job = j;
-        subject = s;
+        this.name = n;
+        this.job = j;
+        this.subject = s;
     }
 
     @Override
     public void introduce(){
-        System.out.println("氏名：" + name + "\n職種：" + job + "\n担当教科：" + subject);
+        System.out.println("氏名：" + this.name + "\n職種：" + this.job + "\n担当教科：" + this.subject);
     }
 }
