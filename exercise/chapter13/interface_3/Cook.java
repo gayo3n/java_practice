@@ -1,9 +1,9 @@
 package practice.exercise.chapter13.interface_3;
 
 public class Cook implements Person{
-    String name;
-    String job;
-    String specialties;
+    private String name;
+    private String job;
+    private String specialties;
 
     // コンストラクタ
     public Cook(String n, String j, String s){

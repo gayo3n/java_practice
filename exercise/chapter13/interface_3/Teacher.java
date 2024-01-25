@@ -1,9 +1,9 @@
 package practice.exercise.chapter13.interface_3;
 
 public class Teacher implements Person{
-    String name;
-    String job;
-    String subject;
+    private String name;
+    private String job;
+    private String subject;
 
     // コンストラクタ
     public Teacher(String n, String j, String s){
