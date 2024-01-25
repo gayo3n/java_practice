@@ -11,7 +11,7 @@ class Teacher extends Person{
 
     @Override
     public void introduce(){
-        System.out.println("氏名：" + name + "\n職種：" + job + "\n担当科目：" + subject);
+        System.out.println("氏名：" + this.name + "\n職種：" + this.job + "\n担当科目：" + this.subject);
     }
 }
 // Cookクラス
@@ -24,7 +24,7 @@ class Cook extends Person{
     }
     @Override
     public void introduce(){
-            System.out.println("氏名：" + name + "\n職種：" + job + "\n得意料理：" + specialties);
+            System.out.println("氏名：" + this.name + "\n職種：" + this.job + "\n得意料理：" + this.specialties);
     }
 }
 // メインクラス
