@@ -1,10 +1,10 @@
-package practice.exercise.chapter13;
+package practice.exercise.chapter13.person_abstract;
 
 
 // Personクラス（抽象）
 public abstract class Person{
-    String name;
-    String job;
+    protected String name;
+    protected String job;
     // コンストラクタ
     Person(String n, String j){
         name = n;

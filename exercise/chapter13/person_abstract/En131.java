@@ -1,4 +1,4 @@
-package practice.exercise.chapter13;
+package practice.exercise.chapter13.person_abstract;
 
 // Teacherクラス
 class Teacher extends Person{
