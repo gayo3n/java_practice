@@ -1,5 +1,6 @@
 package practice.exercise.chapter13.calc;
 
-public classz CalcAddSub {
-    void dispadd();
+public interface CalcAddSub {
+    void dispAdd();
+    void dispSub();
 }
