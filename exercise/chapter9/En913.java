@@ -1,5 +1,4 @@
 package practice.exercise.chapter9;
-import java.util.ArrayList;
 public class En913 {
 
     static int[] odd(int[] array){
