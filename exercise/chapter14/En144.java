@@ -1,4 +1,4 @@
-package practice.exercise.chapter15;
+package practice.exercise.chapter14;
 import java.util.Scanner;
 public class En144 {
     public static void main(String[] args){
